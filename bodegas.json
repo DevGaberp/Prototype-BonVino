@@ -1,0 +1,247 @@
+[
+  {
+    "nombre": "Bodega Sol",
+    "vinos": [
+      {
+        "nombre": "El Gaucho",
+        "varietal": "Malbec",
+        "anada": 2020,
+        "imagen": "../Etiquetas/ElGaucho.jpeg",
+        "precio": 5500,
+        "bodega": "Bodega Sol",
+        "region": "Mendoza",
+        "provincia": "Mendoza",
+        "pais": "Argentina",
+        "notaDeCata": "Frutas rojas maduras y un toque de chocolate amargo.",
+        "maridajes": "Tira de asado"
+      },
+      {
+        "nombre": "The Bandoneon",
+        "varietal": "Malbec",
+        "anada": 2020,
+        "imagen": "../Etiquetas/TheBandoneon.jpeg",
+        "precio": 7520,
+        "bodega": "Bodega Sol",
+        "region": "Mendoza",
+        "provincia": "Mendoza",
+        "pais": "Argentina",
+        "notaDeCata": "Notas de frutas rojas y un final de vainilla.",
+        "maridajes": "Lenguado a la plancha"
+      }
+    ]
+  },
+  {
+    "nombre": "Bodega Luna",
+    "vinos": [
+      {
+        "nombre": "Estancia 33",
+        "varietal": "Cabernet Sauvignon",
+        "anada": 2019,
+        "imagen": "../Etiquetas/Estancia33.jpeg",
+        "precio": 12000,
+        "bodega": "Bodega Luna",
+        "region": "Mendoza",
+        "provincia": "Mendoza",
+        "pais": "Argentina",
+        "notaDeCata": "Aromas florales con un final de cacao.",
+        "maridajes": "Salmón rosado"
+      },
+      {
+        "nombre": "Punte",
+        "varietal": "Cabernet Sauvignon",
+        "anada": 2019,
+        "imagen": "../Etiquetas/Punte.jpeg",
+        "precio": 7620,
+        "bodega": "Bodega Luna",
+        "region": "Mendoza",
+        "provincia": "Mendoza",
+        "pais": "Argentina",
+        "notaDeCata": "Aromas florales con un toque de chocolate.",
+        "maridajes": "Salmón rosado"
+      }
+    ]
+  },
+  {
+    "nombre": "Bodega Estrella",
+    "vinos": [
+      {
+        "nombre": "La Pera",
+        "varietal": "Syrah",
+        "anada": 2021,
+        "imagen": "../Etiquetas/LaPera.jpeg",
+        "precio": 7000,
+        "bodega": "Bodega Estrella",
+        "region": "San Juan",
+        "provincia": "San Juan",
+        "pais": "Argentina",
+        "notaDeCata": "Sabores afrutados con un toque de madera.",
+        "maridajes": "Postre muy dulce"
+      },
+      {
+        "nombre": "El Balcetto",
+        "varietal": "Syrah",
+        "anada": 2021,
+        "imagen": "../Etiquetas/ElBalcetto.jpeg",
+        "precio": 6720,
+        "bodega": "Bodega Estrella",
+        "region": "San Juan",
+        "provincia": "San Juan",
+        "pais": "Argentina",
+        "notaDeCata": "Sabores afrutados con un final de madera.",
+        "maridajes": "Ensalada de mariscos"
+      }
+    ]
+  },
+  {
+    "nombre": "Bodega Río",
+    "vinos": [
+      {
+        "nombre": "Morgan",
+        "varietal": "Merlot",
+        "anada": 2022,
+        "imagen": "../Etiquetas/Morgan.jpeg",
+        "precio": 6800,
+        "bodega": "Bodega Río",
+        "region": "Río Negro",
+        "provincia": "Río Negro",
+        "pais": "Argentina",
+        "notaDeCata": "Notas de durazno y un final ácido.",
+        "maridajes": "Ensalada de mariscos"
+      },
+      {
+        "nombre": "Oboi",
+        "varietal": "Merlot",
+        "anada": 2022,
+        "imagen": "../Etiquetas/Oboi.jpeg",
+        "precio": 5820,
+        "bodega": "Bodega Río",
+        "region": "Río Negro",
+        "provincia": "Río Negro",
+        "pais": "Argentina",
+        "notaDeCata": "Notas de durazno y un final ácido.",
+        "maridajes": "Solomillo de cerdo"
+      }
+    ]
+  },
+  {
+    "nombre": "Bodega Montaña",
+    "vinos": [
+      {
+        "nombre": "Jilguero",
+        "varietal": "Pinot Noir",
+        "anada": 2021,
+        "imagen": "../Etiquetas/Jilguero.jpeg",
+        "precio": 4900,
+        "bodega": "Bodega Montaña",
+        "region": "Río Negro",
+        "provincia": "Río Negro",
+        "pais": "Argentina",
+        "notaDeCata": "Sabores de frutas del bosque con un toque de vainilla.",
+        "maridajes": "Pescado blanco"
+      },
+      {
+        "nombre": "Ganges",
+        "varietal": "Pinot Noir",
+        "anada": 2021,
+        "imagen": "../Etiquetas/Ganges.jpeg",
+        "precio": 4920,
+        "bodega": "Bodega Montaña",
+        "region": "Río Negro",
+        "provincia": "Río Negro",
+        "pais": "Argentina",
+        "notaDeCata": "Sabores de frutas del bosque con un toque de vainilla.",
+        "maridajes": "Solomillo de cerdo"
+      }
+    ]
+  },
+  {
+    "nombre": "Bodega Cielo",
+    "vinos": [
+      {
+        "nombre": "La Bengalla",
+        "varietal": "Malbec",
+        "anada": 2020,
+        "imagen": "../Etiquetas/LaBengalla.jpeg",
+        "precio": 5550,
+        "bodega": "Bodega Cielo",
+        "region": "Mendoza",
+        "provincia": "Mendoza",
+        "pais": "Argentina",
+        "notaDeCata": "Notas de frutas negras y un final especiado.",
+        "maridajes": "Champagne con ostras"
+      }
+    ]
+  },
+  {
+    "nombre": "Bodega Mar",
+    "vinos": [
+      {
+        "nombre": "Barro Tal Vez",
+        "varietal": "Cabernet Sauvignon",
+        "anada": 2019,
+        "imagen": "../Etiquetas/BarroTalVez.jpeg",
+        "precio": 6650,
+        "bodega": "Bodega Mar",
+        "region": "Mendoza",
+        "provincia": "Mendoza",
+        "pais": "Argentina",
+        "notaDeCata": "Aromas terrosos con un toque de pimienta negra.",
+        "maridajes": "Postre de chocolate"
+      }
+    ]
+  },
+  {
+    "nombre": "Bodega Tierra",
+    "vinos": [
+      {
+        "nombre": "Twenty Cities",
+        "varietal": "Cabernet Sauvignon",
+        "anada": 2021,
+        "imagen": "../Etiquetas/TwentyCities.png",
+        "precio": 5720,
+        "bodega": "Bodega Tierra",
+        "region": "San Juan",
+        "provincia": "San Juan",
+        "pais": "Argentina",
+        "notaDeCata": "Sabores de frutas del bosque con un final de cuero.",
+        "maridajes": "Carne roja a la parrilla"
+      }
+    ]
+  },
+  {
+    "nombre": "Bodega Viento",
+    "vinos": [
+      {
+        "nombre": "El Mate",
+        "varietal": "Merlot",
+        "anada": 2022,
+        "imagen": "../Etiquetas/ElMate.jpeg",
+        "precio": 9820,
+        "bodega": "Bodega Viento",
+        "region": "Río Negro",
+        "provincia": "Río Negro",
+        "pais": "Argentina",
+        "notaDeCata": "Notas herbáceas y un final de tabaco.",
+        "maridajes": "Lenguado a la plancha"
+      }
+    ]
+  },
+  {
+    "nombre": "Bodega Fuego",
+    "vinos": [
+      {
+        "nombre": "La Guitera",
+        "varietal": "Pinot Noir",
+        "anada": 2021,
+        "imagen": "../Etiquetas/LaGuitera.jpeg",
+        "precio": 4920,
+        "bodega": "Bodega Fuego",
+        "region": "Río Negro",
+        "provincia": "Río Negro",
+        "pais": "Argentina",
+        "notaDeCata": "Sabores de cereza y un final de café.",
+        "maridajes": "Postre muy dulce"
+      }
+    ]
+  }
+]
