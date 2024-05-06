@@ -3,6 +3,7 @@
 body {
     background-color: #4b1b1b;
     color: #fafffd;
+    font-family: 'Lora', serif;
     border: 5px solid #60302e; 
     padding: 10px; /
 }
@@ -10,14 +11,12 @@ body {
 header {
     text-align: center;
     padding: 20px;
-    font-family: 'Lora', serif;
 }
 
 h1 {
     font-size: 3em; 
     margin: 0;
     font-weight: normal;
-    font-family: 'Lora', serif;
 }
 
 h2 {

@@ -28,9 +28,13 @@ class Bodega {
   }
 }
 
+let vinos;
+let bodegas;
+
+
 
 // Creacion de Vinos de fomra manual
-let vinos = [
+vinos = [
   new Vino("El Gaucho", "Malbec", 2020, "../Etiquetas/ElGaucho.jpeg", 5500, "Bodega Sol", "Mendoza", "Mendoza", "Argentina", "Frutas rojas maduras y un toque de chocolate amargo.", "Tira de asado"),
   new Vino("Estancia 33", "Cabernet Sauvignon", 2019, "../Etiquetas/Estancia33.jpeg", 12000, "Bodega Luna", "Mendoza", "Mendoza", "Argentina", "Aromas florales con un final de cacao.", "Salmón rosado"),
   new Vino("La Pera", "Syrah", 2021, "../Etiquetas/LaPera.jpeg", 7000, "Bodega Estrella", "San Juan", "San Juan", "Argentina", "Sabores afrutados con un toque de madera.", "Postre muy dulce"),
@@ -49,7 +53,7 @@ let vinos = [
 ];
 
 // Creacion de Bodegas con sus Respectivos Vinos
-let bodegas = [
+bodegas = [
   new Bodega("Bodega Sol", [vinos[0], vinos[10]]),
   new Bodega("Bodega Luna", [vinos[1], vinos[11]]),
   new Bodega("Bodega Estrella", [vinos[2], vinos[12]]),
@@ -61,7 +65,6 @@ let bodegas = [
   new Bodega("Bodega Viento", [vinos[8]]),
   new Bodega("Bodega Fuego", [vinos[9]])
 ];
-
 
 
 

@@ -1,12 +1,3 @@
-// Variable global para almacenar las bodegas
-let bodegas = [];
-
-// Función para cargar las bodegas desde el archivo .json
-async function cargarBodegas() {
-  const response = await fetch('../bodegas.json');
-  bodegas = await response.json();
-}
-
 // Función para inicializar la lista de años y provincias
 function inicializarFormulario() {
   const anadaSelect = document.getElementById('anada');
@@ -44,10 +35,7 @@ function actualizarProvincias() {
 
 
 // Llamada a la función inicializarFormulario al cargar la página
-document.addEventListener('DOMContentLoaded', async function() {
-  await cargarBodegas();
-  inicializarFormulario();
-});
+document.addEventListener('DOMContentLoaded', inicializarFormulario);
 
 // Función para mostrar los datos del vino cuando se selecciona una bodega
 function mostrarDatosVino() {
@@ -100,11 +88,11 @@ function cargarDatosVino() {
 
 
 // Función para inicializar el selector de bodegas al cargar la página
-window.onload = async function() {
-  await cargarBodegas();
-  const bodegaSelect = document.getElementById('bodega-select');
+window.onload = function() {
+const bodegaSelect = document.getElementById('bodega-select');
+// Suponiendo que 'bodegas' es un array de objetos Bodega disponibles en BodegasVinos.js
   bodegas.forEach(bodega => {
-    let option = document.createElement('option');
+  let option = document.createElement('option');
     option.value = bodega.nombre;
     option.textContent = bodega.nombre;
     bodegaSelect.appendChild(option);
@@ -135,5 +123,5 @@ function actualizarVino() {
     vino.pais = nuevoPais;
     vino.provincia = nuevaProvincia;
     vino.precio = nuevoPrecio;
-}
 
+}

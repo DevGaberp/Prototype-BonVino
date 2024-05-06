@@ -60,17 +60,17 @@ p {
     margin-top: 0;
 }
 
+
 button {
     background-color: #60302e; /* Fondo para botones */
     color: #fafffd; /* Color de letra para botones */
     padding: 10px 15px;
     border: none;
     cursor: pointer;
-    transition: 0.3s ease;
+    transition: background-color 0.3s ease;
 }
 
 button:hover {
     background-color: #fafffd; /* Color claro al pasar el mouse */
     color: #60302e; /* Color de detalles al pasar el mouse */
 }
-
